@@ -3,3 +3,5 @@
 *.log
 *.pdf
 *.ttf
+*.otf
+.DS_Store

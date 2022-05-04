@@ -1,8 +1,15 @@
 \documentclass[twoside]{article}
 
 \usepackage{fontspec} % requires xelatex
-\setmainfont{CenturySchoolbook.ttf}
+%\setmainfont{CenturySchoolbook.ttf}
 % also ctan.org/pkg/tex-gyre or tex-gyre-schola
+\setmainfont{texgyreschola}[
+  Extension = .otf ,
+  UprightFont = *-regular ,
+  ItalicFont = *-italic ,
+  BoldFont = *-bold ,
+  BoldItalicFont = *-bolditalic ]
+
 
 \usepackage[top=2.21in, bottom=2.21in, left=2.16in, right=2.16in]{geometry}
 \special{papersize=8.5in,11in}
@@ -56,7 +63,7 @@
 \end{center}
 
 
-JUSTICE PERSON delivered the opinion of the Court.
+\textsc{Justice Person} delivered the opinion of the Court.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et ligula sed metus lobortis hendrerit a nec nisl. Nullam sodales risus non nisi aliquam, lobortis aliquam quam iaculis. Phasellus consequat risus id auctor porta. Donec a orci euismod, blandit ipsum at, faucibus libero. Vestibulum lobortis aliquet semper. Maecenas commodo lorem ac quam hendrerit, vel malesuada mauris hendrerit. Nam et dui vitae nibh gravida iaculis. Proin non odio non nisi faucibus semper sit amet et ante. Aliquam erat volutpat. Sed egestas in purus eu volutpat. Proin bibendum leo non nisl porttitor, non sagittis dui molestie. Ut vulputate, massa a suscipit tristique, nulla lorem fermentum felis, ut pharetra ipsum odio ac dolor. Donec posuere in diam vel imperdiet. Sed luctus libero magna, quis porttitor nisl lobortis ut. Curabitur facilisis nisi posuere mauris fringilla bibendum.
 
