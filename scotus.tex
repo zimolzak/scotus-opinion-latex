@@ -10,7 +10,6 @@
   BoldFont = *-bold ,
   BoldItalicFont = *-bolditalic ]
 
-
 \usepackage[top=2.21in, bottom=2.21in, left=2.16in, right=2.16in]{geometry}
 \special{papersize=8.5in,11in}
 \setlength{\pdfpageheight}{\paperheight}
@@ -21,7 +20,7 @@
 \fancyhead{}
 \fancyhead[LE,RO]{\thepage \vspace{4ex}}
 \fancyhead[CO]{\small Cite as: 123 U.S. 123 (1234) \\ \bigskip Opinion of the Court}
-\fancyhead[CE]{\small BATSAKIS v. DEMOTSIS \\ \bigskip Opinion of the Court}
+\fancyhead[CE]{\small BATSAKIS \emph{v.} DEMOTSIS \\ \bigskip Opinion of the Court}
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 
@@ -31,6 +30,9 @@
 %\setlength{\headheight}{0.7in}
 
 \begin{document}
+
+
+
 
 {\noindent \scriptsize NOTICE: This opinion is subject to formal
   revision before publication in the preliminary print of the United
@@ -50,18 +52,21 @@
 
   \rule{2cm}{.4pt}
 
-  \textsc{WORD WORD ETIAM, et al., PETITIONERS} \emph{v.} \textsc{LIGULA SED
-  METUS, et al.}
+  \textsc{WORD WORD ETIAM, et al., PETITIONERS} \emph{v.}
+  \textsc{LIGULA SED METUS, et al.}
 
   \vspace{1ex}
 
-  {\small ON WRIT OF CERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR WHATEVER CIRCUIT}
+  {\small ON WRIT OF CERTIORARI TO THE UNITED STATES COURT OF APPEALS
+    FOR WHATEVER CIRCUIT}
 
   \vspace{1ex}
 
   {\small [May 4, 1234]}
 
 \end{center}
+
+
 
 
 \textsc{Justice Person} delivered the opinion of the Court.
@@ -194,6 +199,6 @@ Curabitur eu sem eget felis convallis mattis sed sed sem. Pellentesque augue mau
 
 
 \bigskip
-{\flushright So ordered.\par}
+{\flushright \itshape So ordered.\par}
 
 \end{document}
